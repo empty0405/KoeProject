@@ -1,0 +1,22 @@
+# 환경 설정 파일
+.env
+
+# 노드 모듈과 패키지 락 파일
+node_modules/
+package-lock.json
+
+# 로그 파일
+logs/
+*.log
+
+# IDE 설정
+.vscode/
+.idea/
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
