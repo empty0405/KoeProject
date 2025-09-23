@@ -1,0 +1,9 @@
+{
+  "botName": "KOE PROJECT 봇",
+  "version": "1.0.0",
+  "defaultLanguage": "ko",
+  "prefix": "!",
+  "embedColor": "#0099ff",
+  "ownerID": "여기에_소유자_ID를_입력하세요",
+  "supportServer": "여기에_지원_서버_링크를_입력하세요"
+}

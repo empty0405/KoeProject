@@ -1,0 +1,17 @@
+{
+  "name": "koe-project-bot",
+  "version": "1.0.0",
+  "description": "KOE PROJECT - 한국어 디스코드 봇",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": ["discord", "bot", "korean", "한국어"],
+  "author": "empty0405",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
