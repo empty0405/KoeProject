@@ -42,10 +42,15 @@ client.on(Events.GuildMemberAdd, async (member) => {
   logger.info(`새 멤버 입장: ${member.user.tag} (${member.guild.name})`);
   
   try {
+    // 자동 역할 부여
     const { assignAutoRoles } = await import('./modules/autoRole.js');
     await assignAutoRoles(member);
+    
+    // 환영 메시지 전송
+    const { sendWelcomeMessage } = await import('./modules/welcome.js');
+    await sendWelcomeMessage(member);
   } catch (error) {
-    logger.error('자동 역할 부여 실패:', error);
+    logger.error('새 멤버 처리 실패:', error);
   }
 });
 
