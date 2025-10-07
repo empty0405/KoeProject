@@ -1,0 +1,20 @@
+{
+  "name": "jellyguard-bot",
+  "version": "1.0.0",
+  "description": "JellyGuard Bot - Discord server management and automation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy:commands": "node scripts/deploy-commands.mjs"
+  },
+  "keywords": ["discord", "bot", "jellyguard"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3"
+  }
+}
